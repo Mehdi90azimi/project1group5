@@ -6,14 +6,18 @@
     <title>فروش لوازم تزئینی</title>
     <script src="https://kit.fontawesome.com/b7763e12cb.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
+        <!-- pay attention to syntax errors -->
         <img src="img/p1.jpg" alt="logo_website" height="50px" width="50px">
         <img src="img/p3.jpg" height="50px" width="900px">
         <label>
             <input type="text" placeholder="کلمه را وارد نمایید">
+            <!-- dont use button inside the input label. any input must have a label but there is no need to put a label for buttons -->
             <button>search</button>
         </label> 
+        <!-- you should use 1 form tag for a set of inputs ... -->
         <form action="login.html" dir="rtl" target="blank">
             <button>ورود/ثبت نام</button>
         </form>
@@ -31,7 +35,7 @@
             </form><br>
             
         </nav>
-        <img src="img/ph1.jpeg"alt="ظروف سرامیکی" width="1400px">
+        <img src="img/ph1.jpeg" alt="ظروف سرامیکی" width="1400px">
     </header>
     <hr>
     <main>
@@ -363,11 +367,13 @@
     <footer>
         <article dir="rtl">
             <h4>درباره ما</h4>
+            <!-- p tags are not capital! <p></p> -->
             <P>شرکت ما کادری مجرب اقدام انواع لوازم تزئینی کرده است</P>
             <P>شرکت ما در تولید وسایل تزئینی سرامیکی و سفالی فعالیت میکند</P>
         </article>
         <article dir="rtl">
             <h4>تماس با ما</h4>
+            <!-- to make a text italic you should use <em></em> -->
             <i class="fab fa-instagram">&nbsp;&nbsp;<button>لینک اینستاگرام</button></i><br><br>
             <i class="fab fa-telegram">&nbsp;&nbsp;<button>لینک تلگرام</button></i>
         </article>
